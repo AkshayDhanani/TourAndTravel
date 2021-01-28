@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="CSS/signUp.css" />
+    <link rel="stylesheet" href="CSS/index.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>  
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel & Tour</title>
+  </head>
+  <body>
+    <div class="container1">
+      <!-- Menubar -->
+      <div class="open-menu menu cntr">
+        <div class="ln"></div>
+        <div class="ln"></div>
+        <div class="ln"></div>
+      </div>
+      <div class="menu-wrapper">
+        <nav class="menu1">
+          <div class="close-menu menu cntr">
+            <div class="ln ln-1"></div>
+            <div class="ln ln-2"></div>
+          </div>
+          <div class="menu-list">
+            <a href="index.html" class="menu-link cntr">Home</a>
+            <a href="tours.html" class="menu-link cntr">Tours</a>
+            <a href="booking.html" class="menu-link cntr">Booking</a>
+            <a href="login.html" class="menu-link cntr">Login</a>
+            <a href="contact.html" class="menu-link cntr">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <!-- End of Menubar -->
+
+      <!-- Header -->
+      <header class="about-header cntr">
+        <div class="hdr-text">
+          <h1 class="hd">Book Your Favourite Trip..</h1>
+        </div>
+      
+        <div class="lg">
+          <h1>
+            <span class="cntr">t</span>
+            <span class="cntr">r</span>
+            <span class="cntr">a</span>
+            <span class="cntr">v</span>
+            <span class="cntr">e</span>
+            <span class="cntr">l</span>
+            <span class="cntr">&</span>
+            <span class="cntr">t</span>
+            <span class="cntr">o</span>
+            <span class="cntr">u</span>
+            <span class="cntr">r</span>
+          </h1>
+        </div>
+      </header>
+      <!-- End of Header -->
+
+      <!-- Booking Form -->
+      <section class="trip">
+        <center>
+        <div class="apbox">
+          <form type=get action="display.html" name="myform" onsubmit="return validateForm()">
+              <h2>Book Your Trip</h2><br><br>
+              <cntr>
+              <input type="text" name="fname" id="name" placeholder="First Name"><br><br>
+              <input type="text" name="lname" id="name" placeholder="Last Name"><br><br>
+              <input type="email" name="email" id="name" placeholder="E-Mail"><br><br>
+              <input type="tel" name="mobile" id="name" placeholder="Mobile Number" pattern="[0-9]{10}"><br><br>
+              <p>Select your Trip: </p><br>
+              <select id="time" name="trip" placeholder="select ypur trip">
+                <option >Mountain_Hike</option>
+                <option >Snow_Hiking</option>
+                <option >Island_Beach</option>
+                <option >Dubai</option>
+                <option >DisneyLand</option>
+                <option >Maldives_Beach</option>
+                <option >Italy</option>
+                <option >Venice</option>
+                <option >Paris</option>
+                <option >London</option>
+                <option >Singapore</option>
+                <option >Bali</option>
+              </select><br><br>
+              <input type="text" name="person" id="name" placeholder="Enter Person"><br><br>
+              <p>Your Requested Date for Trip </p><br>
+              <div class="date-picker" id="date2" >
+                  <div class="selected-date" id="dt2"></div>
+                        <div class="dates" >
+                            <div class="month">
+                              <div class="arrows prev-mth">&lt;</div>
+                                <div class="mth"></div>
+                             <div class="arrows next-mth">&gt;</div>
+                            </div>
+                            <div class="days"></div>
+                        </div>    
+                  </div>
+                  
+
+              <input type="submit" class="button" value="Submit"></button>
+              <script src="index.js"></script>
+              </cntr>
+          </form>                
+         </div>
+         </center>
+       </section>
+        
+      <!-- End of Booking Form-->
+
+    
+
+      <!-- footer -->
+     <footer class="ftr">
+        <div class="ftr-list">
+            <a href="index.html" class="ftr-link">Home</a>
+            <a href="tours.html" class="ftr-link">Tours</a>
+            <a href="booking.html" class="ftr-link">Booking</a>
+            <a href="login.html" class="ftr-link">Login</a>
+            <a href="contact.html" class="ftr-link">Contact</a>
+        </div>
+        <center>
+        <p class="ftr-paragraph">
+          Copyright ©2020 All rights reserved
+        </p>
+      </center>
+      </footer>
+      <!-- End of footer-->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
