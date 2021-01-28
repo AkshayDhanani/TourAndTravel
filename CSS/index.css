@@ -1,0 +1,113 @@
+.appheader{
+  background-image: url("../Image/appheader.jpg");
+  margin-bottom: 30px;
+  box-shadow: 0 15px 45px #83818c;
+  color: white;
+  height:1300px;
+  }
+
+.gallery1{
+  padding: 5px;
+  border:1px solid #ccc;
+  float:center;
+  width:310px;
+  
+}
+.gallery1 img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  
+}
+.apbox{
+    margin-auto;
+    width: 50%;
+    text-align: center;
+    color:white;
+    background: rgba(0,0,0,0.5);
+    border:2px solid white;
+    padding: 15px;   
+  }
+  .apbox h2{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 40px;
+  } 
+  .apbox p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 18px;
+        text-align: center;
+  }
+  .apbox .button {
+  padding: 20px 40px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 50px;
+  background-color: #fab700;
+  color: white;
+  transition: 0.6s;
+  border: 2px solid #fab700;
+    text-align: center;
+    text-shadow: none;
+}
+  #name{
+    width:50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background: none;
+    align-items: center;
+  }
+  #date{
+    width:30%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background: none;
+    color:skyblue;
+  }
+  #time{
+    width:50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background: none;
+    color:skyblue;
+  }
+  #im{
+    padding:5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    
+  }
+  #check{
+    padding:5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+  }
+  #display{
+    color: skyblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+  }
+  .d1{
+    color: skyblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+  }
+  .d2{
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 28px;
+  }
+

@@ -1,0 +1,316 @@
+
+
+
+
+
+/*//for team page*/
+.gallery1{
+	padding: 20px;
+	border:1px solid #ccc;
+	float:center;
+	width:100px;
+	
+}
+.gallery1 img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  
+}
+.a2{
+  padding-left: 30px;
+}
+
+.a3{
+  margin-top: 40px;
+   flex-basis: 28%;
+  color: #fff;
+  padding-left:60px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.service-area1{
+	
+	display: flex;
+	padding: 100px;
+	align-items: center;
+	flex-wrap:wrap;
+	flex-direction: row;
+	width: 100%;
+	background: #fefefe;
+	padding-bottom: 0;
+}
+.banner-area1{
+	position: relative;
+	background-image: url('../Image/bg4.jpg');
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+
+.cntct{
+  text-align: center;
+  
+}
+.cntct h1{
+  padding-top: 35px;
+  font-size: 40px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.cntct input{
+  width: 100%;
+  margin:20px 0;
+  background: rgba(0,0,0,0);
+  border:none;
+  border-bottom:1px solid #0078ff;
+}
+::-webkit-input-placeholder{
+  color: #EAEAEA;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+}
+#msg{
+  padding-top: 30px;
+}
+.need1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  background: #262626;
+  color: #fff;
+}
+.cbox1{
+    float: center;
+    width: 35%;
+    margin-top: 15px;
+    margin-left: 100px;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.3);
+    padding: 5px 20px;
+    height: 370px;
+  }
+
+  .apbox{
+    margin-auto;
+    width: 50%;
+    text-align: center;
+    color:white;
+    background: rgba(0,0,0,0.5);
+    border:2px solid white;
+    padding: 15px;   
+  }
+  .apbox h2{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 40px;
+  } 
+  label{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 18px;
+  }
+  #name{
+    width:50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background: none;
+  }
+  #date{
+    width:30%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background: none;
+    color:skyblue;
+  }
+  #time{
+    width:20%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background: none;
+    color:skyblue;
+  }
+  #im{
+    padding:5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    
+  }
+  #check{
+    padding:5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+  }
+  #display{
+    color: skyblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+  }
+  .d1{
+    color: skyblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+  }
+  .d2{
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 28px;
+  }
+
+
+
+  .date-picker{
+    position:relative;
+    width: 30%;
+    max-width: 250px;
+    height:60px;
+    background-color: #fff;
+    margin: 30px auto;
+    cursor: pointer;
+    user-select:none;
+    border-radius: 5px;
+      border: 1px solid white;
+      outline: 0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 18px;
+      background: none;
+      color:skyblue;
+}
+.date-picker:hover {
+  background-color: #F3F3F3;
+
+}
+.date-picker .selected-date{
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#313131;
+  font-size: 18px;
+  color:skyblue;
+
+}
+.date-picker .dates{
+
+  display: none;
+  position: absolute;
+  top:100%;
+  left:0;
+  right:0;
+
+  background-color: #fff;
+}
+.date-picker .dates.active{
+  display: block;
+}
+.date-picker .dates .month{
+  padding:5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #EEE;
+}
+.date-picker .dates .month .arrows{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313131;
+  font-size: 20px;
+}
+.date-picker .dates .month .arrows:hover{
+  background-color: #F3F3F3;
+}
+.date-picker .dates .month .arrows:active {
+  background-color: #00CA85;
+}
+
+.date-picker .dates .days{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 200px;
+}
+.date-picker .dates .days .day{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#313131;
+}
+
+.date-picker .dates .days .day.selected{
+  background-color: #00CA85;
+}
+
+
+
+
+
+.faqsec .container {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 970px;
+}
+
+.faqsec .container .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.faqsec .container .row .col {
+  width: 100%;
+  padding:15px;
+  position: relative;
+}
+
+.faqsec .container h1 .fa_1{
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  color: #545454;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.faqsec .container h2 .fa_2{
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  color: #545454;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+}
+
+.faqsec .container p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12pt;
+  color: #545454;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
